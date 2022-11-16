@@ -1,8 +1,8 @@
-import {TodoItem} from "../../../../../../../serverless/Serverless_App/backend/src/models/TodoItem";
-import {parseUserId} from "../../../../../../../serverless/Serverless_App/backend/src/auth/utils";
-import {CreateTodoRequest} from "../../../../../../../serverless/Serverless_App/backend/src/requests/CreateTodoRequest";
-import {UpdateTodoRequest} from "../../../../../../../serverless/Serverless_App/backend/src/requests/UpdateTodoRequest";
-import {TodoUpdate} from "../../../../../../../serverless/Serverless_App/backend/src/models/TodoUpdate";
+import {TodoItem} from "../models/TodoItem";
+import {parseUserId} from "../auth/utils";
+import {CreateTodoRequest} from "../requests/CreateTodoRequest";
+import {UpdateTodoRequest} from "../requests/UpdateTodoRequest";
+import {TodoUpdate} from "../models/TodoUpdate";
 import {ToDoAccess} from "../dataLayer/ToDoAccess";
 
 const uuidv4 = require('uuid/v4');

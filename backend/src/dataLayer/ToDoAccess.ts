@@ -2,8 +2,8 @@ import * as AWS from "aws-sdk";
 import * as AWSXRay from 'aws-xray-sdk'
 import { DocumentClient } from "aws-sdk/clients/dynamodb";
 import { Types } from 'aws-sdk/clients/s3';
-import { TodoItem } from "../../../../../../../serverless/Serverless_App/backend/src/models/TodoItem";
-import { TodoUpdate } from "../../../../../../../serverless/Serverless_App/backend/src/models/TodoUpdate";
+import { TodoItem } from "../models/TodoItem";
+import { TodoUpdate } from "../models/TodoUpdate";
 
 const XAWS = AWSXRay.captureAWS(AWS)
 export class ToDoAccess {
